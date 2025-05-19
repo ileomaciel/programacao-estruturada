@@ -16,11 +16,11 @@ int main()
     }
 
     for(i = 0; i < num; i++){
-        cout << "\nA letra armazenada na posição " << i << " do vetor é: " << vetor[i] << endl << endl;
+        cout << "\nA letra armazenada na posiÃ§Ã£o " << i << " do vetor Ã©: " << vetor[i] << endl << endl;
      }
 
      cout << "O vetor armazena as letras: " << vetor << endl;
-     cout << "A segunda posição do vetor armazena a letra: " << vetor[1] << endl;
+     cout << "A segunda posiÃ§Ã£o do vetor armazena a letra: " << vetor[1] << endl;
 
     return 0;
 }
