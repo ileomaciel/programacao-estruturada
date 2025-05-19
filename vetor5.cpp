@@ -9,17 +9,17 @@ int main()
 
     int produto, soma = 0, i;
 
-    cout << "Quantos produtos você irá comprar: ";
+    cout << "Quantos produtos vocÃª irÃ¡ comprar: ";
     cin >> produto;
     int vetor[produto];
 
     for(i = 0; i < produto; i++){
-        cout << "Digite o valor do " << (i+1) << "º Produto: ";
+        cout << "Digite o valor do " << (i+1) << "Âº Produto: ";
         cin >> vetor[i];
         soma += vetor[i];
     }
 
-    cout << "\nA soma dos Produtos é: " << soma << endl;
+    cout << "\nA soma dos Produtos Ã©: " << soma << endl;
 
     return 0;
 }
