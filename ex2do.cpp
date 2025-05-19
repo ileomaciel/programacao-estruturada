@@ -9,15 +9,15 @@ int main()
 
     int i = 0, num;
 
-    cout << "Informe um número: ";
+    cout << "Informe um nÃºmero: ";
     cin >> num;
 
     do{
-        cout << "Informe um número: ";
+        cout << "Informe um nÃºmero: ";
         cin >> num;
         i = i + 1;
 
     }while(num != 0);
-        cout << "A quantidade de números digitados foram " << i << endl;
+        cout << "A quantidade de nÃºmeros digitados foram " << i << endl;
     return 0;
 }
