@@ -9,12 +9,12 @@ int main()
 
     char bolo;
 
-    cout << "Escolha uma opção do cardápio para ver o valor: " << endl;
+    cout << "Escolha uma opÃ§Ã£o do cardÃ¡pio para ver o valor: " << endl;
     cout << "Digite - C - escolher bolo de Chocolate." << endl;
     cout << "Digite - B - escolher bolo de Banana." << endl;
     cout << "Digite - A - escolher bolo de Amendoim." << endl;
-    cout << "Digite - L - escolher bolo de Limão." << endl;
-    cout << "Digite - F - escolher bolo de Fubá." << endl;
+    cout << "Digite - L - escolher bolo de LimÃ£o." << endl;
+    cout << "Digite - F - escolher bolo de FubÃ¡." << endl;
     cin >> bolo;
     bolo = toupper(bolo);
 
@@ -32,9 +32,9 @@ int main()
             cout << "O bolo de Chocolate custa R$15,00" << endl;
         break;
         case 'F':
-            cout << "O bolo de Fubá custa R$12,00" << endl;
+            cout << "O bolo de FubÃ¡ custa R$12,00" << endl;
         default:
-            cout << "Opção Inválida!!! \n";
+            cout << "OpÃ§Ã£o InvÃ¡lida!!! \n";
     }
 
     return 0;
