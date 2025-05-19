@@ -30,7 +30,7 @@ int main()
             cout << "Salada Simples: R$7,90 \n";
         break;
         default:
-            cout << "Opção Inválida!!! \n";
+            cout << "OpÃ§Ã£o InvÃ¡lida!!! \n";
     }
 
     return 0;
