@@ -9,19 +9,19 @@ int main()
 
     int golsSaoPaulo, golsPalmeiras;
 
-    cout << "***Placar São Paulo x Palmeiras ***" << endl;
+    cout << "***Placar SÃ£o Paulo x Palmeiras ***" << endl;
 
-    cout << "Digite a quantidade de gols do São Paulo: ";
+    cout << "Digite a quantidade de gols do SÃ£o Paulo: ";
     cin >> golsSaoPaulo;
 
     cout << "Digite a quantidade de gols do Palmeiras: ";
     cin >> golsPalmeiras;
 
     if (golsSaoPaulo > golsPalmeiras){
-        cout << "\nA festa é Tricolor" << endl;
+        cout << "\nA festa Ã© Tricolor" << endl;
     }
     else{
-        cout << "\nA festa é do Palmeiras" << endl;
+        cout << "\nA festa Ã© do Palmeiras" << endl;
 
     }
     return 0;
