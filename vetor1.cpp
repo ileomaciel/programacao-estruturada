@@ -10,7 +10,7 @@ int main()
     int vetor[5], i;
 
     for(i = 0; i < 5; i++){
-        cout << "Digite um valor na posição " << i << " do vetor: ";
+        cout << "Digite um valor na posiÃ§Ã£o " << i << " do vetor: ";
         cin >> vetor[i];
     }
 
