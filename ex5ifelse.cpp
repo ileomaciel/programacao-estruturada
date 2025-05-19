@@ -9,7 +9,7 @@ int main()
 
     float media;
 
-    cout << "Digite a média do aluno: ";
+    cout << "Digite a mÃ©dia do aluno: ";
     cin >> media;
 
     if(media >= 0 && media <= 10){
@@ -20,7 +20,7 @@ int main()
             cout << "Aluno foi  reprovado" << endl;
             }
                 }else{
-                    cout << "A média é inválida" << endl;
+                    cout << "A mÃ©dia Ã© invÃ¡lida" << endl;
                 }
     return 0;
 }
