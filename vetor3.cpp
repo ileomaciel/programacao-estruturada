@@ -12,14 +12,14 @@ int main()
     int vetor1[] = {10, 20, 30, 40, 50, 60, -1};
     int i;
 
-    cout << "Vetor com tamanho pré-definido com define" << endl << endl;
+    cout << "Vetor com tamanho prÃ©-definido com define" << endl << endl;
     for(i = 0; i < DIM; i++){
-        cout << "Vetor na posição " << i << " = " << vetor[i] << endl;
+        cout << "Vetor na posiÃ§Ã£o " << i << " = " << vetor[i] << endl;
         }
 
     cout << "\n\nVetor terminado por -1" << endl << endl;
     for(i = 0; vetor1[i] > 0; i++){
-        cout << "Vetor na posição  " << i << " = " << vetor1[i] << endl;
+        cout << "Vetor na posiÃ§Ã£o  " << i << " = " << vetor1[i] << endl;
      }
 
      return 0;
