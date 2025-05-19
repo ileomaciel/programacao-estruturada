@@ -9,9 +9,9 @@ int main()
 
     int i = 1, num;
 
-    cout << "Informe um número: " << endl;
+    cout << "Informe um nÃºmero: " << endl;
     cin >> num;
-    cout << "Os antecessores de " << num << " são: " << endl;
+    cout << "Os antecessores de " << num << " sÃ£o: " << endl;
 
     do{
         cout << num - i << endl;
