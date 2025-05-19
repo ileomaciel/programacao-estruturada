@@ -10,11 +10,11 @@ int main()
     int notas[5], media = 0, i;
 
     for(i = 0; i < 5; i++){
-        cout << "Digite a nota do " << (i+1) << "º Aluno: ";
+        cout << "Digite a nota do " << (i+1) << "Âº Aluno: ";
         cin >> notas[i];
         media += notas[i];
     }
-    cout << "\nMédia das notas: " << (media/5) << endl;
+    cout << "\nMÃ©dia das notas: " << (media/5) << endl;
 
     return 0;
 }
