@@ -9,7 +9,7 @@ int main()
 
     int i, j, m;
 
-    cout << "Digite o número da MATRIZ que você deseja: ";
+    cout << "Digite o nÃºmero da MATRIZ que vocÃª deseja: ";
     cin >> m;
     int matriz[m][m];
 
