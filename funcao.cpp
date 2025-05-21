@@ -25,12 +25,12 @@ int main(){
 
     int primeiro, segundo, terceiro, x, y, z, maior_1, maior_2;
 
-    cout << "Digite o primeiro conjunto de três números inteiros: ";
+    cout << "Digite o primeiro conjunto de trÃªs nÃºmeros inteiros: ";
     cin >> primeiro >> segundo >> terceiro;
 
     maior_1 = acheMaior(primeiro, segundo, terceiro);
 
-    cout << "Digite o segundo conjunto de três números inteiros: ";
+    cout << "Digite o segundo conjunto de trÃªs nÃºmeros inteiros: ";
     cin >> x >> y >> z;
 
     maior_2 = acheMaior(x, y, z);
