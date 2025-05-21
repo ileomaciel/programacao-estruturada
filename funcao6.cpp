@@ -15,14 +15,14 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
 
     int a, b;
-    cout << "Digite 2 números: ";
+    cout << "Digite 2 nÃºmeros: ";
     cin >> a >> b;
 
-    cout << "\nVocê entrou com  " << a << " e " << b << endl;
+    cout << "\nVocÃª entrou com  " << a << " e " << b << endl;
 
     troca(a, b);
 
-    cout << "Trocados, eles são " << a <<  " e " << b << endl;
+    cout << "Trocados, eles sÃ£o " << a <<  " e " << b << endl;
 
     return 0;
 }
