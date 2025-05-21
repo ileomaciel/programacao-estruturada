@@ -10,7 +10,7 @@ int main(){
 
     int NPESSOA;
 
-    cout << "Quantas Pessoas você deseja cadastrar: ";
+    cout << "Quantas Pessoas vocÃª deseja cadastrar: ";
     cin >> NPESSOA;
 
     struct EstruturaPessoa{
