@@ -4,7 +4,7 @@
 using namespace std;
 
     void oi(void){
-        cout << "Oi, esse é o primeiro exemplo de def. de FUNCÇÃO em C++." << endl;
+        cout << "Oi, esse Ã© o primeiro exemplo de def. de FUNCÃ‡ÃƒO em C++." << endl;
         cout << "Ainda veremos outros exemplos." << endl << endl;
     }
 
