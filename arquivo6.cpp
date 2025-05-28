@@ -23,12 +23,9 @@ int main(){
         while(! arq.eof()){
             getline (arq, linha);
             cout << linha << endl;
-        }
         arq.close();
     }else{
         cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
-
     }
-
     return 0;
 }
