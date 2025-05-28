@@ -9,7 +9,7 @@ int main(){
     arquivo.open("arquivo.txt");
 
     arquivo << "Gabriel" << endl;
-    arquivo << "Jessé" << endl;
+    arquivo << "JessÃ©" << endl;
     arquivo << "Maria Luiza" << endl;
 
     arquivo.close();
