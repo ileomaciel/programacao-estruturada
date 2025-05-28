@@ -9,8 +9,8 @@ int main(){
     arquivo.open("arquivoFOR.txt");
 
     for(int i = 0; i <= 10; i++){
-        arquivo << "Você está salvando dados de: " << i << endl;
-        cout << "Você está salvando dados de: " << i << endl;
+        arquivo << "VocÃª estÃ¡ salvando dados de: " << i << endl;
+        cout << "VocÃª estÃ¡ salvando dados de: " << i << endl;
     }
     arquivo.close();
 
