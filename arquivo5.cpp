@@ -20,7 +20,7 @@ int main(){
         }
         arq_leitura.close();
     }else{
-        cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
+        cout << "ERRO: arquivo nÃ£o foi aberto ou nÃ£o existe" << endl;
 
     }
     return 0;
