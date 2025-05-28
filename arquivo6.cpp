@@ -1,4 +1,4 @@
-#include <iostream>
+a#include <iostream>
 #include <fstream>
 #include <string.h>
 #include <locale>
@@ -19,7 +19,7 @@ int main(){
         arq << "Ivan Lopes" << endl;
         arq.close();
     }else{
-        cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
+        cout << "ERRO: arquivo nÃ£o foi aberto ou nÃ£o existe" << endl;
 
     }
 
