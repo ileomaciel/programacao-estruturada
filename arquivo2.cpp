@@ -10,10 +10,10 @@ int main(){
 
     if(arq1.is_open()){
         arq1 << "Carlos" << endl;
-        arq1 << "José" << endl;
+        arq1 << "JosÃ©" << endl;
         arq1.close();
     }else{
-        cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
+        cout << "ERRO: arquivo nÃ£o foi aberto ou nÃ£o existe" << endl;
     }
 
     return 0;
