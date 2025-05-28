@@ -18,6 +18,13 @@ int main(){
         arq << "Maria Donizeti" << endl;
         arq << "Ivan Lopes" << endl;
         arq.close();
+
+        arq.open("nomes.txt", ios::in);
+        while(! arq.eof()){
+            getline (arq, linha);
+            cout << linha << endl;
+        }
+        arq.close();
     }else{
         cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
 
