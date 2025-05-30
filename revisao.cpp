@@ -11,7 +11,7 @@ int main()
     int soma = 0;
 
     for(i = 0; i < 10; i++){
-        cout << "Digite um valor na posição " << i << " do vetor: ";
+        cout << "Digite um valor na posição " << i + 1 << " do vetor: ";
         cin >> vetor[i];
     }
     
