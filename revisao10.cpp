@@ -58,6 +58,16 @@ int main() {
     cout << "\nANIMAIS Cadastrados com Sucesso!!!\n" << endl;
 
     for (int i = 0; i < NANIMAL; i++) {
+        cout << "PET #" << (i + 1) << endl;
+        cout << "Nome: " << strAnimal[i].nome << endl;
+        cout << "Espécie: " << strAnimal[i].especie << endl;
+        cout << "Raça: " << strAnimal[i].raca << endl;
+        cout << "Sexo: " << strAnimal[i].sexo << endl;
+        cout << "Idade: " << strAnimal[i].idade << endl;
+        cout << "Nome do DONO: " << strAnimal[i].nomedono << endl;
+        cout << "RG do DONO: " << strAnimal[i].rg << endl;
+        cout << "Telefone: " << strAnimal[i].telefone << endl << endl;
+
         arquivo << "PET #" << (i + 1) << endl;
         arquivo << "Nome: " << strAnimal[i].nome << endl;
         arquivo << "Espécie: " << strAnimal[i].especie << endl;
