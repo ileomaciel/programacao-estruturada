@@ -18,7 +18,6 @@ if(b > maior){
     return maior;
 }
 
-
 int main(){
 
     setlocale(LC_ALL, "Portuguese");
